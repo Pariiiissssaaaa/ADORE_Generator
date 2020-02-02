@@ -7,10 +7,11 @@ Requiement: pytorch 1.4
 Download pre-trained restaurant word embeddings from https://drive.google.com/uc?id=12Pj5LkKnE_XQKIRABiviqgspA5DB1Zfn&export=download
 
 ###############################################################################
-# The language model code is adapted from "PyTorch word level language modeling example": https://github.com/pytorch/examples/tree/master/word_language_model".
+The language model code is adapted from "PyTorch word level language modeling example": https://github.com/pytorch/examples/tree/master/word_language_model".
 
-# The modifications throughout main.py, data.py and model.py are marked as "parisa's Modification"
-# The context encoder, regularization, attention layer and embedding layer are originally develped for this project by Parisa. 
+The modifications throughout main.py, data.py and model.py are marked as "parisa's Modification"
+
+The context encoder, regularization, attention layer and embedding layer are originally develped for this project by Parisa. 
 ###############################################################################
 
 To train the model run:
