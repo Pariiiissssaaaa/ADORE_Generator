@@ -12,6 +12,7 @@ The language model code is adapted from "PyTorch word level language modeling ex
 The modifications throughout main.py, data.py and model.py are marked as "parisa's Modification"
 
 The context encoder, regularization, attention layer and embedding layer are originally develped for this project by Parisa. 
+
 ###############################################################################
 
 To train the model run:
