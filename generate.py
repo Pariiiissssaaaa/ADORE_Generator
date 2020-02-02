@@ -4,6 +4,7 @@ from torch.autograd import Variable
 import data
 from tqdm import tqdm
 import json
+from collections import defaultdict
 
 
 
@@ -36,6 +37,7 @@ n=10 #number of generated reviews for each aspect
 
 # Set the random seed manually for reproducibility.
 #torch.manual_seed(seed)
+cuda=True
 if torch.cuda.is_available():
     if not cuda:
         print("WARNING: You have a CUDA device, so you should probably run with --cuda")
